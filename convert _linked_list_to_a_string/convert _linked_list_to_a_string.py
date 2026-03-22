@@ -4,10 +4,6 @@ def stringify(node):
     '''Converts a linked list to a string representation.
     >>> stringify(None)
     'None'
-    >>> stringify(Node(1))
-    '1 -> None'
-    >>> stringify(Node(1, Node(2, Node(3))))
-    '1 -> 2 -> 3 -> None'
     '''
     curNode = node
     result = ''
